@@ -310,5 +310,10 @@ namespace CPRG_Lab2
 
             customerListBox.Items.Add(theString);
         }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }   
 }
